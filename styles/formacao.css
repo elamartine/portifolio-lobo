@@ -1,0 +1,140 @@
+section {
+  padding: 120px 20px;
+  
+}
+.formacao {
+  background-color: #141414;
+  padding: 120px 20px;
+  height: 850px;
+  
+}
+.conteiner-formacao {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  padding: 40px 0px;
+  
+}
+.formacao-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.formacao h2 {
+  color: #000;
+  line-height: 1;
+  font-size: 8rem;
+  text-transform: uppercase;
+  word-break: break-all;
+
+}
+.formacao {
+  color: #a3a3a3;
+}
+.texto {
+  font-size: 1.5rem;
+  margin: 0px 0px 60px;
+  max-width: 40ch;
+}
+.faculdade {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: relative;
+  margin-bottom: 60px;
+}
+.texto span {
+  color: #fff;
+}
+.faculdade h3 {
+  color: #fff;
+  font-size: 1.125rem;
+  margin-bottom: 40px;
+}
+.faculdade span {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.faculdade span:last-child {
+  margin: 0px;
+}
+
+.grid-formacao div {
+  display: flex;
+  flex-direction: column;
+}
+.curso {
+  flex: 1;
+  line-height: 1.4;
+  position: relative;
+}
+.faculdade li {
+  flex: 1;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  justify-content: space-between;
+}
+.faculdade h3::before {
+  content: "";
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(180deg, #b6f829 0%, #67dd0a 100%);
+  position: absolute;
+  display: block;
+  left: -4px;
+}
+
+.formacao-extra {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.formacao-extra h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8f8f8f;
+  margin-bottom: 30px;
+  
+}
+.idiomas h3{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8f8f8f;
+  margin-bottom: 30px;
+}
+
+.formacao-extra li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.formacao-extra li {
+  display: flex;
+  justify-content: space-between;
+}
+.formacao-extra li span{
+  color: #8f8f8f;
+}
+.idiomas {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.idiomas span {
+  color: #8f8f8f;
+}
+

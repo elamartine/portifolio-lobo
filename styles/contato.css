@@ -1,0 +1,48 @@
+footer {
+  background-color: black;
+}
+footer p {
+  color: #ccc;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  position: relative;
+}
+.contato ul {
+  color: #fff;
+  font-size: 34px;
+  justify-self: center;
+}
+.contato-conteiner ul {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #fff;
+}
+.contato-conteiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+
+.contato-conteiner {
+  width: 1200px;
+  margin: auto;
+  padding: 120px 20px 60px;
+}
+footer .texto-menor {
+  font-size: 18px;
+  line-height: 32px;
+  color: #8f8f8f;
+}
+
+.footer-contato p::before {
+  content: "";
+  display: block;
+  background-image: url("/img/detalhe.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  right: 0px;
+}

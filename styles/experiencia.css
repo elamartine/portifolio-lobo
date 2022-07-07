@@ -1,0 +1,71 @@
+.experiencia {
+  padding: 40px 20px;
+  margin: auto;
+  width: 1200px;
+  gap: 100px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.experiencia h2 {
+  color: #e0e0e0;
+  text-transform: uppercase;
+  font-size: 8rem;
+  line-height: 144px;
+  word-break: break-all;
+  max-width: 4ch;
+  line-height: 144px;
+}
+.experiencia p {
+  line-height: 32px;
+  max-width: 40ch;
+  font-size: 1.5rem;
+  align-self: center;
+}
+.experiencia > div > p{
+  margin-bottom: 60px;
+}
+.grid {
+  padding: 20px;
+  background-color: #f0f0f0;
+  gap: 10px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.grid span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.grid p {
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+.grid ul {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-content: start;
+}
+.grid li{
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+
+.div{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+.grid::before{
+  content: "";
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(180deg, #B6F829 0%, #67DD0A 100%);
+  position: absolute;
+  left: -4px;
+}
+
